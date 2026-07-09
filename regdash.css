@@ -1,0 +1,142 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial, sans-serif;
+}
+
+body{
+    background:#f4f4f4;
+}
+
+header{
+    background:#ff6b6b;
+    color:white;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding:15px 40px;
+}
+
+header h2{
+    font-size:28px;
+}
+
+header a{
+    text-decoration:none;
+    color:white;
+    background:#4CAF50;
+    padding:10px 20px;
+    border-radius:5px;
+}
+
+header a:hover{
+    background:#388E3C;
+}
+
+.container{
+    width:90%;
+    margin:30px auto;
+    background:white;
+    padding:20px;
+    border-radius:10px;
+    box-shadow:0 0 10px lightgray;
+}
+
+.container h1{
+    text-align:center;
+    color:#ff4081;
+    margin-bottom:20px;
+}
+
+.search{
+    width:100%;
+    padding:12px;
+    border:1px solid #ccc;
+    border-radius:5px;
+    margin-bottom:20px;
+    font-size:16px;
+}
+
+table{
+    width:100%;
+    border-collapse:collapse;
+}
+
+table th{
+    background:#ff4081;
+    color:white;
+    padding:12px;
+}
+
+table td{
+    padding:12px;
+    border:1px solid #ddd;
+    text-align:center;
+}
+
+table tr:nth-child(even){
+    background:#f9f9f9;
+}
+
+table tr:hover{
+    background:#ffe6ef;
+}
+
+.available{
+    color:green;
+    font-weight:bold;
+}
+
+.adopted{
+    color:red;
+    font-weight:bold;
+}
+
+.edit-btn{
+    background:#2196F3;
+    color:white;
+    border:none;
+    padding:8px 15px;
+    border-radius:5px;
+    cursor:pointer;
+}
+
+.delete-btn{
+    background:red;
+    color:white;
+    border:none;
+    padding:8px 15px;
+    border-radius:5px;
+    cursor:pointer;
+}
+
+.edit-btn:hover{
+    background:#1976D2;
+}
+
+.delete-btn:hover{
+    background:darkred;
+}
+
+@media(max-width:768px){
+
+header{
+    flex-direction:column;
+    text-align:center;
+}
+
+header a{
+    margin-top:10px;
+}
+
+.container{
+    width:95%;
+    overflow-x:auto;
+}
+
+table{
+    min-width:700px;
+}
+
+}
