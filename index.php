@@ -237,7 +237,7 @@
 
                 <p>Golden Retriever • 2 Years</p>
 
-                <button>Adopt Me ❤️</button>
+                <button><a href="login.php" style="text-decoration:none; font-size:lagre;">Adopt Me ❤️</a></button>
 
             </div>
 
@@ -249,7 +249,7 @@
 
                 <p>Persian Cat • 1 Year</p>
 
-                <button>Adopt Me ❤️</button>
+                <button><a href="login.php" style="text-decoration:none; font-size:lagre;">Adopt Me ❤️</a></button>
 
             </div>
 
@@ -261,7 +261,7 @@
 
                 <p>Parrot • 3 Years</p>
 
-                <button>Adopt Me ❤️</button>
+                <button><a href="login.php" style="text-decoration:none; font-size:lagre;">Adopt Me ❤️</a></button>
 
             </div>
 
