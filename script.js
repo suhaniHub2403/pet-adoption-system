@@ -17,22 +17,6 @@ window.addEventListener("scroll", () => {
 });
 
 
-document.querySelectorAll('a[href^="#"]').forEach(link => {
-
-    link.addEventListener("click", function (e) {
-
-        e.preventDefault();
-
-        document.querySelector(this.getAttribute("href"))
-            .scrollIntoView({
-                behavior: "smooth"
-            });
-
-    });
-
-});
-
-
 const form = document.querySelector("form");
 
 if (form) {
@@ -91,20 +75,6 @@ topBtn.style.cursor = "pointer";
 topBtn.style.fontSize = "20px";
 topBtn.style.display = "none";
 topBtn.style.zIndex = "999";
-
-window.addEventListener("scroll", () => {
-
-    if (window.scrollY > 500) {
-
-        topBtn.style.display = "block";
-
-    } else {
-
-        topBtn.style.display = "none";
-
-    }
-
-});
 
 topBtn.onclick = () => {
 
