@@ -370,6 +370,7 @@
         </p>
 
     </footer>
+    <script src="script.js"></script>
 
 </body>
 
